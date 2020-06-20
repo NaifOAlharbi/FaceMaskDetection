@@ -14,7 +14,7 @@ After detecting the face, the ROI will be extracted and feed to mask classifier,
  (https://www.datacamp.com/community/tutorials/transfer-learning?utm_source=adwords_ppc&utm_campaignid=10267161064&utm_adgroupid=102842301792&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=278443377095&utm_targetid=aud-299261629574:dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=9076704&gclid=CjwKCAjw57b3BRBlEiwA1ImytlgsNBbAs0yXxWKTfQ5HJXF4gdodFDvInrCESZg8EgOQ1aeqTjBaVxoCQ4oQAvD_BwE)
 
 
- The Mobilenetv2 is one of the most famous models. It can be considered as light weight model for image classification, Mobilenetv2  is a significant improvement over MobileNetV1 and pushes the state of the art for mobile visual recognition including classification, object detection and semantic segmentation. We have trained this model by useing TensorFlow, based on the dataset that we obtianed. The dataset is images of face and Mask face.By using the Fine-tuning technique in transfer learning we trained the Mobilenetv2 based one our dataset. We test the model on test set and the accuracy reached ~=99%..  
+ The Mobilenetv2 is one of the most famous models. It can be considered as light weight model for image classification, Mobilenetv2  is a significant improvement over MobileNetV1 and pushes the state of the art for mobile visual recognition including classification, object detection and semantic segmentation. We have trained this model by useing TensorFlow, based on the dataset that we obtianed. The dataset is images of face and Mask face.By using the Fine-tuning technique in transfer learning we trained the Mobilenetv2 based one our dataset. We test the model on test set and the accuracy almost reached 99%..  
 
 
 
