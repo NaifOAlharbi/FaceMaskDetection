@@ -38,7 +38,6 @@ maskDetection = load_model(model)
 
 def image(image):
     image = cv2.imread(image)
-    orig = image.copy()
     (locs, preds) = detect_and_predict_mask(image, faceDetection, maskDetection)
     # loop over the detected face locations and their corresponding
     # locations
@@ -68,11 +67,8 @@ def image(image):
 
 #### Detect the Facemask in live-feed ###
 def video(video):
-    print(video)
     vs = VideoStream(src=0).start()
     time.sleep(2.0)
-    print("yeeeeees")
-
     while True:
         
         # grab the frame from the threaded video stream and resize it
