@@ -18,7 +18,7 @@ After detecting the face, the ROI will be extracted and feed to mask classifier,
 
 
 
- -Face mask detection in an image:
+ -Facee mask detection in an image:
  ```bash
 python maskdetection.py -img /path/to/img
 ``` 
